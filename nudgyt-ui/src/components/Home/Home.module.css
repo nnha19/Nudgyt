@@ -1,0 +1,35 @@
+.home {
+  width: 24rem;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+.home h1 {
+  text-align: center;
+}
+.user {
+  margin: 1.2rem 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 2px grey;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+.user:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+  box-shadow: 0 2px 2px 1px grey;
+}
+.user span {
+  height: 3.4rem;
+  margin-right: 2rem;
+  width: 3.4rem;
+  background: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}

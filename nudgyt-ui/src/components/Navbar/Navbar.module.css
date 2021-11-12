@@ -1,0 +1,24 @@
+.nav {
+  background-color: var(--primary-color);
+  height: 6rem;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logoImg {
+  height: 6rem;
+}
+.logoBody h1 {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.logoBody p {
+  color: var(--secondary-color);
+}

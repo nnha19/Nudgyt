@@ -1,0 +1,25 @@
+.auth {
+  height: max-content;
+  width: 24rem;
+  margin: 6rem auto;
+  box-shadow: 0 4px 4px 1px rgba(128, 128, 128, 0.5);
+}
+.inputContainer {
+  width: 100%;
+  margin: 2rem 0;
+}
+.inputContainer input {
+  width: 100%;
+  padding: 0.4rem 1rem;
+}
+.form {
+  padding: 2rem;
+}
+.errorMsg {
+  color: red;
+  margin-top: 0.4rem;
+}
+.btn:hover {
+  background-color: var(--primary-color-soft);
+  color: var(--secondary-color);
+}
